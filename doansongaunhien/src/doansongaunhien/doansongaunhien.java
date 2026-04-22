@@ -18,7 +18,7 @@ public class doansongaunhien {
 	            b = sc.nextInt(); 
 	        } 
 	        catch (InputMismatchException e) {
-	            System.out.println("❌ Bạn phải nhập số!");
+	            System.out.println("Bạn phải nhập số!");
 	            return; 
 	        }
 
