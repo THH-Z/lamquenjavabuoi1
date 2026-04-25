@@ -68,7 +68,7 @@ public class mangjava {
 	                   a[i+1]=a[i];
 	                   tam=a[i+1];
 				   }
-				   System.out.println("\n" + a[i]);
+				   System.out.println("" + a[i]);
 			   }
 		 	System.out.println("\n tang dan");
 		  	SelectionSorttangdan(a);
