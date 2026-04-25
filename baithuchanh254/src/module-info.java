@@ -4,5 +4,5 @@
 /**
  * 
  */
-module thuchanhbuoi254 {
+module baithuchanh254 {
 }
