@@ -154,4 +154,5 @@ public class arrylist {
 		    System.out.print(" "+s+" ");
 		}
 
+     }
 }
