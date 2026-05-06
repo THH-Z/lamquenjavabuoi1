@@ -10,7 +10,16 @@ public class NhanVien
 	private  int soSP;
 	
 	public NhanVien(String string, String string2, int i) {
-		// TODO Auto-generated constructor stub
+        this.ho=ho;
+        this.ten=ten;
+        if(soSP<0)
+        {
+        	soSP=0;
+        }
+        else
+        {
+        	soSP=soSP
+        }
 	}
 
 	public void setho(String ho) { this.ho=ho;}
@@ -31,7 +40,7 @@ public class NhanVien
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		NhanVien nv = nv.new NhanVien("truong","huy",7);
+		NhanVien nv = new NhanVien("truong","huy",7);
 			
 	}
 
