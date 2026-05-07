@@ -90,10 +90,10 @@ public class quanlynhanvien {
 
         System.out.print("So san pham: ");
         int sp1 = sc.nextInt();
-        sc.nextLine();
+        sc.nextLine();// dọn ký tự enter còn sót
 
+        NhanVien nv1 = new NhanVien(ho1, ten1, sp1);// tạo đối tượng nhân viên 1
 
-        NhanVien nv1 = new NhanVien(ho1, ten1, sp1);
 
         System.out.println("\nNhap nhan vien 2:");
         System.out.print("Ho: ");
@@ -105,9 +105,9 @@ public class quanlynhanvien {
         System.out.print("So san pham: ");
         int sp2 = sc.nextInt();
 
+        NhanVien nv2 = new NhanVien(ho2, ten2, sp2);// tạo đối tượng nhân viên 2
 
-        NhanVien nv2 = new NhanVien(ho2, ten2, sp2);
-
+        
         System.out.println("\nThong tin nhan vien:");
         nv1.xuat();
         nv2.xuat();
